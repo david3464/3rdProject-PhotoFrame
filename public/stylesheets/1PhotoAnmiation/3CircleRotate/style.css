@@ -15,9 +15,10 @@ body {
 
 #wrap {
     position: relative;
-    width:400px;
+    width:450px;
     height:600px;
     /* border: 1px solid red; */
+    left: 100px;
     margin: 400px auto;
     transform-style: preserve-3d;
     /* 设置3D场景风格 */
@@ -27,6 +28,6 @@ body {
 
 #wrap img{
     position: absolute;
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
 }
