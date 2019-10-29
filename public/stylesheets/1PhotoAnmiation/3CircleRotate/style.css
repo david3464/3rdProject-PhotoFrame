@@ -9,15 +9,15 @@ body {
 }
 
 #perspective {
-    perspective: 800px;
+    perspective: 1000px;
     /* 设置景深 */
 }
 
 #wrap {
     position: relative;
-    width: 350px;
-    height:350px;
-    border: 1px solid red;
+    width: 400px;
+    height:400px;
+    /* border: 1px solid red; */
     margin: 350px auto;
     transform-style: preserve-3d;
     /* 设置3D场景风格 */
@@ -27,4 +27,6 @@ body {
 
 #wrap img{
     position: absolute;
+    width: 40%;
+    height: 40%;
 }
