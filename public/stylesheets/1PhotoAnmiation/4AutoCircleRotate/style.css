@@ -7,7 +7,7 @@
 #photos{
   width:110px;            /*宽度*/
   height:180px;          /*高度*/
-  border:1px solid #ccc;  /*加一个灰色边框*/
+  
   margin:160px auto;     /*水平居中，高度距离顶部100px*/
   transform:rotateY(0deg);
   transform:rotateX(-10deg);
